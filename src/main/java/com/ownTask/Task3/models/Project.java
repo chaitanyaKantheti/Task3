@@ -3,9 +3,13 @@ package com.ownTask.Task3.models;
 import java.util.List;
 
 public class Project {
+	
 		String pId;
 		String pName;
+		
+	
 		private List<Task> tasks;
+		
 		
 		public String getpId() {
 			return pId;
@@ -36,6 +40,6 @@ public class Project {
 		}
 		public Project() {
 			super();
-			// TODO Auto-generated constructor stub
+			
 		}
 }

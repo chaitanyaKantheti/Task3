@@ -1,6 +1,7 @@
 package com.ownTask.Task3.models;
 
 public class Stage {
+		
 		String sId;
 		String sName;
 		

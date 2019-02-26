@@ -1,9 +1,9 @@
 package com.ownTask.Task3.DAO;
 
-import java.sql.SQLException;
+
 import java.util.List;
 
-import com.own.Task.Task3.exception.Task3Exception;
+
 import com.ownTask.Task3.models.Project;
 import com.ownTask.Task3.models.Stage;
 import com.ownTask.Task3.models.Task;

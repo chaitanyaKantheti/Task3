@@ -18,7 +18,6 @@ public class PojectServicesImpl implements ProjectServicesInterface {
 	
 	@Autowired
 	ProjectDAOInterface projectDaoInterface;
-	
 	 
 	 @Override
 	 public String addProject(Project project) {
@@ -56,6 +55,8 @@ public class PojectServicesImpl implements ProjectServicesInterface {
 	public Project getAProject(String pId) {
 		return projectDaoInterface.getAProject(pId);
 	}
+
+
 	 
 }
 

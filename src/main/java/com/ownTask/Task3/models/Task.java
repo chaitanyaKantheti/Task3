@@ -3,9 +3,13 @@ package com.ownTask.Task3.models;
 
 import java.util.List;
 
+
 public class Task {
+
 	String tId;
 	String tName;
+	
+
 	private List<Stage> stages;
 	
 	public String gettId() {

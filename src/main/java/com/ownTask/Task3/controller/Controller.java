@@ -1,9 +1,6 @@
 package com.ownTask.Task3.controller;
 
-import java.io.File;
-import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.Iterator;
+
 import java.util.List;
 
 
@@ -21,6 +18,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import com.ownTask.Task3.models.Project;
 import com.ownTask.Task3.models.Stage;
 import com.ownTask.Task3.models.Task;
+
 import com.ownTask.Task3.services.ProjectServicesInterface;
 
 @RestController
@@ -28,6 +26,7 @@ public class Controller {
 	
 	@Autowired
 	ProjectServicesInterface projectServicesInterface;
+
 	
 	@Value("${spring.datasource.driver-class-name}")
 	public String DB_DRIVER;
@@ -36,7 +35,7 @@ public class Controller {
 	@RequestMapping(value="/greet")	
 	public String greet() {
 		System.out.println(DB_DRIVER);
-		return ("Hello world"+DB_DRIVER);
+		return ("Hello world>>>>>>>"+DB_DRIVER);
 	}
 	
 	
@@ -88,5 +87,4 @@ public class Controller {
 		return result;
 		//return null;
 	}
-	
 }
